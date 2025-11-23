@@ -1,0 +1,32 @@
+#HONEY POT
+wget https://downloads.source.forge.net/project/pentbox18realised/pentbox-1.8.tar.gz
+tar xvfz pentbox-1.8.tar.gz
+cd pentbox-1.8
+./pentbox.rb
+
+#TRIVY
+https://github.com/aquasecurity/trivy/releases/latest/
+sudo apt install trivy
+sudo trivy image python:3.4-alpine
+sudo trivy image --severity HIGH python:3.4-alpine
+
+#GIT COMMANDS
+#MASTER
+git init 
+git clone "copy link from git"
+
+#MAIN
+git pull
+git branch
+echo "hii" > f1 
+git add .
+git commit -m "hello"
+> if error verify by putting email and name
+git status
+git log
+git checkout -b master
+git checkout main 
+git log --graph
+git log --oneline
+git show
+
